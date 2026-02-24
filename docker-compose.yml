@@ -1,0 +1,9 @@
+services:
+  backend:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - ENV=dev
+      - CORS_ORIGINS=http://localhost:8000
+      - API_KEY=dev-key

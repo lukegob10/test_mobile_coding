@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; margin: 0; }
+.layout { display: grid; grid-template-columns: 320px 1fr; min-height: 100vh; }
+aside { padding: 16px; background: #f4f4f4; }
+main { padding: 16px; }
+#chat { min-height: 180px; border: 1px solid #ddd; padding: 10px; margin: 12px 0; white-space: pre-wrap; }
+.row { display: flex; gap: 8px; }
+input, select, button { margin: 4px 0; padding: 8px; width: 100%; }
+pre { background: #111; color: #9f9; padding: 10px; max-height: 280px; overflow: auto; }

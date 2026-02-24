@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>ReAct RAG</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside>
+      <h3>Collections</h3>
+      <input id="collectionName" placeholder="new collection name" />
+      <button id="createCollectionBtn">Create</button>
+      <select id="collectionSelect"></select>
+      <h3>Upload document</h3>
+      <input type="file" id="docFile" />
+      <button id="uploadBtn">Upload</button>
+      <ul id="docList"></ul>
+    </aside>
+    <main>
+      <h2>Chat</h2>
+      <label><input type="checkbox" id="showTrace" /> show trace</label>
+      <div id="chat"></div>
+      <div class="row">
+        <input id="queryInput" placeholder="Ask a question" />
+        <button id="askBtn">Ask</button>
+      </div>
+      <pre id="trace"></pre>
+    </main>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>
